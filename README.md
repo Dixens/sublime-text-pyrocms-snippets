@@ -1,4 +1,3 @@
-
 <div id="readme" class="blob instapaper_body">
 
 <article class="markdown-body entry-content" itemprop="mainContentOfPage">
@@ -18,7 +17,7 @@
 
 <p>If you haven't got Package Control installed, you will need to make a clone of this repository into your packages folder, like so:</p>
 
-<pre><code>git clone git@github.com:Dixens/sublime-text-pyrocms-snippets.git pyrocms
+<pre><code>git clone https://github.com/Dixens/sublime-text-pyrocms-snippets.git pyrocms
 </code></pre>
 
 
