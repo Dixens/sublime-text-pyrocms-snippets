@@ -3,19 +3,23 @@
 <article class="markdown-body entry-content" itemprop="mainContentOfPage">
 
 <p>A <a href="http://www.sublimetext.com/">Sublime Text</a> package of <a href="https://github.com/pyrocms/pyrocms">PyroCMS</a> plugins snippets.</p>
-
-<h2>
+<p> Just hit the tab to trigger the target and expand its full code including bits of explanations from PyroCMS Documentation. You can navigate from one attribute to the next one by hitting tab too.</p> 
+<p>Ex: theme:css+tab will give:</p>
+<pre><code>{{ theme:css file="Name of the css file" type="The type attribute" title="The title attribute" media="The media attribute" rel="The rel attribute" }}
+</code></pre>
+<!--h2>
 <a name="installation" class="anchor" href="#installation"><span class="mini-icon mini-icon-link"></span></a>Installation</h2>
 
 <h3>
 <a name="with-package-control" class="anchor" href="#with-package-control"><span class="mini-icon mini-icon-link"></span></a>With Package Control</h3>
 
-<p>If you have the <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> package installed, you can install Sublime Text 2 PyroCMS Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for PyroCMS Snippets.</p>
+<p>If you have the <a href="http://wbond.net/sublime_packages/package_control">Package Control</a> package installed, you can install Sublime Text 2 PyroCMS Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for PyroCMS Snippets.</p-->
 
 <h3>
 <a name="without-package-control" class="anchor" href="#without-package-control"><span class="mini-icon mini-icon-link"></span></a>Without Package Control</h3>
 
-<p>If you haven't got Package Control installed, you will need to make a clone of this repository into your packages folder, like so:</p>
+<!--p>If you haven't got Package Control installed, you will need to make a clone of this repository into your packages folder, like so:</p-->
+<p>Clone this repository into your packages folder:</p>
 
 <pre><code>git clone https://github.com/Dixens/sublime-text-pyrocms-snippets.git pyrocms
 </code></pre>
