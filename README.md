@@ -1,8 +1,6 @@
 sublime-text-pyrocms-snippets
 =============================
 
-A list of PyroCMS snippets for Sublime Text 2
-
 <div id="readme" class="blob instapaper_body">
 
 <article class="markdown-body entry-content" itemprop="mainContentOfPage">
