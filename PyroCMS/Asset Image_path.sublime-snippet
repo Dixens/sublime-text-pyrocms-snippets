@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ asset:image_path file="${1:The namespace::filename.ext of the file}" }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>asset:image_path</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

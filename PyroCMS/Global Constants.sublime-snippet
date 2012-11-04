@@ -1,0 +1,25 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ global:addonpath }}
+		{{ global:apppath }}
+		{{ global:apppath_uri }}
+		{{ global:base_url }}
+		{{ global:base_uri }}
+		{{ global:current_language }}
+		{{ global:fcpath }}
+		{{ global:admin_theme }}
+		{{ global:shared_addonpath }}
+		{{ global:site_ref }}
+		{{ global:upload_path }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>global:constant</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

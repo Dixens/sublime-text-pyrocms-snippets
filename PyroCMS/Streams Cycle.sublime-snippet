@@ -1,0 +1,27 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ streams:cycle stream="${1:Slug of the stream you want to cycle through}" namespace="${2:Streams works off the core streams namespace, but you can change this to use the cycle function with other namespaced streams}" limit="${3:Number to limit the results to}" offset="${4:Number to offset the results by}" order_by="${5:Specify a field to order by}" sort="${6:Specify to the sort order. Ascending (asc), descending (desc), or random}" date_by="${7:The field to run date parameters through}" year="${8:Restrict results to a year (in the date_by field)}" month="${9:Restrict results to a month (in the date_by field)}" day="${10:Restrict results to a day (in the date_by field)}" show_upcoming="${11:Choose yes or no to show entries dated in the future (in the date_by field)}" show_past="${12:Choose yes or no to show entries dated in the past (in the date_by field)}" where="${13:Allows you to restrict results}" exclude="${14:IDs of entries to exclude separated by a pipe character (|)}" exclude_called="${15:Set to 'yes' to limit entries to ones not already displayed on the same page. Ex: An image gallery with a featured image. Use exclude_called="yes" on the rest of the images to not display the currently selected image}" include="${16:Value to include in a where= clause. Used with include_by to filter by a single data point}" include_by="${17:The field to use when using the include parameter}" disable="${18:Allows you to disable fields and their formatting. You can specify multiple fields by separating them with a pipe character (|)}" no_results="${19:Message that displays when no results are found}" partial="${20:Allows separation of results into separate segments}" }}
+ 
+		    <p>{{ total }} entries returned.</p>
+		 
+		    {{ entries }}
+		 
+		        <h2>{{ name }}</h2>
+		 
+		    {{ /entries }}
+		 
+		    {{ pagination }}
+ 
+		{{ /streams:cycle }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>streams:cycle</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

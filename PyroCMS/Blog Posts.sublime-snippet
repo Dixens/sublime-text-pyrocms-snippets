@@ -1,0 +1,19 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ blog:posts limit="${1:The maximum number of posts to display}" order-by="${2:Choose which column to sort by. (category_title, title, author_id, created_on, updated_on)}" order-dir="${3:The direction to sort results by. (asc, desc)}" category="${4:Display posts from this category only}" }}
+    	<h2>{{ title }}</h2>
+    	<p>{{ intro }} <a href="{{ url }}" title="Read more about: {{ title }}">Read more</a></p>
+    	<p>Written by: <a href="/users/profile/{{ author_id }}">{{ author_name }}</a></p>
+		{{ /blog:posts }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blog:posts</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ helper:date format="${1:The date using php date formatting}" timestamp="${2:Pass an epoch or MySQL timestamp to format a date in the past or future}" }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helper:date</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ user:profile }}
+ 
+    		{{ display_name }}
+ 
+    		{{ custom_field }}
+ 
+    		{{ custom_field:sub_value }}
+ 
+		{{ /user:profile }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>user:profile</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

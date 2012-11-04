@@ -1,0 +1,17 @@
+<snippet>
+	
+	<content><![CDATA[
+	
+		{{ pages:children id="${1:Page ID of parent page whose children you want}" limit="${2:Number of pages to return}" }}
+	    	<h2>{{ ${3:title} }}</h2>
+		{{ /pages:children }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pages:children</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

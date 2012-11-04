@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ theme:favicon file="${1:Favicon file}" rel="${2:Favicon rel}" type="${3:Favicon type}" xhtml="${4:Need a W3C valid link tag xhtml? Enter false if you use HTML5}" base="${5:"path" or "url"}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>theme:favicon</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ session:messages success="${1:Set your own class name for success messages}" notice="${2:Set your own class name for notice messages}" error="${3:Set your own class name for error messages}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>session:messages</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

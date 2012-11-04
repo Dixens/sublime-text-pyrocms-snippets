@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ files:image_url id="${1:Required. The file id of the image}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>files:image_url</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

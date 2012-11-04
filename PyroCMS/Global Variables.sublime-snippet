@@ -1,0 +1,22 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ global:controller }}
+		{{ global:method }}
+		{{ global:module }}
+		{{ global:permissions }}
+		{{ global:current_user }}
+		{{ global:theme_options }}
+		{{ global:site_ref }}
+		{{ global:upload_path }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>global:variables</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

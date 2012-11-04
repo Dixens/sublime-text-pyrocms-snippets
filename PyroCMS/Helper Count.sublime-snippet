@@ -1,0 +1,17 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ helper:count identifier="${1:An identifier to make each counter unique if using multiple counters on the same site}" start="${2:The number to start counting at}" mode="${3:Whether to add or subtract from the start number}" return="${4:Output the count result on each loop or just increment the counter silently}" }}
+
+		{{ helper:show_count identifier="${1:An identifier to make each counter unique if using multiple counters on the same site}" }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helper:count</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

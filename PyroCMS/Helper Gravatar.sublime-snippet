@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ helper:gravatar email="${1:The email linked to the avatar}" size="${2:The width of the image, in pixels}" rating="${3:The content rating of the avatar}" url-only="${4:Fetch the url only or a complete image tag}" }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helper:gravatar</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

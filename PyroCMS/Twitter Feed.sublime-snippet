@@ -1,0 +1,20 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ twitter:feed username="${1:Which Twitter username should be used to find the tweets}" limit="${2:Limit the number of displayed tweets}" }}
+		    <div class="tweet">
+		        <p>{{ text }}</p>
+		        <p>Posted: {{ timespan }}</p>
+		    </div>
+		{{ /twitter:feed }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>twitter:feed</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

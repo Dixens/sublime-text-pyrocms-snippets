@@ -1,0 +1,17 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ if {pages:is child="${1:ID or Slug of the page whose relation you want to check}" parent="${2:ID or Slug of the page to check if it is a parent of child}"} == true }}
+    		
+		{{ endif }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pages:is parent</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

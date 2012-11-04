@@ -1,0 +1,50 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ settings:activation_email }}
+		{{ settings:akismet_api_key }}
+		{{ settings:comment_order }}
+		{{ settings:contact_email }}
+		{{ settings:currency }}
+		{{ settings:dashboard_rss }}
+		{{ settings:dashboard_rss_count }}
+		{{ settings:default_theme }}
+		{{ settings:enable_profiles }}
+		{{ settings:frontend_enabled }}
+		{{ settings:ga_email }}
+		{{ settings:ga_password }}
+		{{ settings:ga_profile }}
+		{{ settings:ga_tracking }}
+		{{ settings:mail_protocol }}
+		{{ settings:mail_sendmail_path }}
+		{{ settings:mail_smtp_host }}
+		{{ settings:mail_smtp_pass }}
+		{{ settings:mail_smtp_port }}
+		{{ settings:mail_smtp_user }}
+		{{ settings:meta_topic }}
+		{{ settings:moderate_comments }}
+		{{ settings:records_per_page }}
+		{{ settings:require_lastname }}
+		{{ settings:rss_feed_items }}
+		{{ settings:server_email }}
+		{{ settings:site_name }}
+		{{ settings:site_slogan }}
+		{{ settings:twitter_cache }}
+		{{ settings:twitter_consumer_key }}
+		{{ settings:twitter_consumer_key_secret }}
+		{{ settings:twitter_feed_count }}
+		{{ settings:twitter_blog }}
+		{{ settings:twitter_username }}
+		{{ settings:unavailable_message }}
+		{{ settings:version }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>settings:setting</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

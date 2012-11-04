@@ -1,0 +1,27 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ user:id }}
+		{{ user:group_id }}
+		{{ user:ip_address }}
+		{{ user:active }}
+		{{ user:activation_code }}
+		{{ user:created_on }}
+		{{ user:last_login }}
+		{{ user:username }}
+		{{ user:display_name }}
+		{{ user:forgotten_password_code }}
+		{{ user:remember_code }}
+		{{ user:group }}
+		{{ user:group_description }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>user:variables</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

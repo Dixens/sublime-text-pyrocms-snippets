@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ files:path id="${1:Required. The file id that you want the path for}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>files:path</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

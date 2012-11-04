@@ -1,0 +1,37 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ contact:form
+		    name = "text|required"
+		    email = "text|required|valid_email"
+		    subject = "dropdown|required|${1:hello=Say Hello}|${2:support=Support Request}|${3:Something}"
+		    message = "textarea|required"
+		    attachment = "file|jpg|png|zip"
+		    max_size = "10000"
+		    reply-to = "${4:The email address to use for the reply to field. If a form input named 'email' is found and you have not specified a reply-to address, the 'email' input will be used}"
+		    button = "send"
+		    template = "contact"
+		    lang = "en"
+		    to = "${5:The email address to send to}"
+		    from = "${6:This address will show as the "from" email address}"
+		    sent = "Your message has been sent. Thank you for contacting us"
+		    error = "Sorry. Your message could not be sent. Please call us at 123-456-7890"
+		    success-redirect = "home"
+		}}
+		    {{ name }}
+		    {{ email }}
+		    {{ subject }}
+		    {{ message }}
+		    {{ attachment }}
+		{{ /contact:form }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>contact:form</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

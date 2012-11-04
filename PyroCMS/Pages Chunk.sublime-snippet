@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ pages:chunk id="${1:ID of the page that the chunk belongs to}" name="${2:The name of the page chunk that you want to display}" }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pages:chunk</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

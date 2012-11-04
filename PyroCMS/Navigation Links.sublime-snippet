@@ -1,0 +1,31 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		<ul>
+			
+			{{ navigation:links group="${1:The navigation group the tag should use}" group_segment="${2:If your navigation name is in the URI, you can specify the numeric URI segement here, and it will pull the value from the URI}" list-tag="${3:Choose between ol and ul lists. The value of this is wrapped in brackets on either end}" tag="${4:Type of tag that surrounds each navigation item. The value of this is wrapped in brackets on either end}" class="${5:The CSS class to add when an element is the current page}" more-class="${6:The class applied to a parent li when it contains a ul or ol. The class to use when an element has child elements}" first-class="${7:The class applied the first in a list of dropdown links}" last-class="${8:The class applied to the last in a list of dropdown links}" separator="${9:String that separates each navigation item}" items-only="${10:true or false. Set if the output source code should be wrapped with an optional list-tag}" indent="${11:'tab' or 'space'. Character used to indent the output of source code}" link-class="${12:The class names to apply in all anchor elements}" wrap="${13:Html that that you wish to wrap the link title in. Most likely a span element}" top="${14:Set to "text" and the top level menu items will be rendered as plain text instead of links}" }}
+			
+			<li><a href="{{ url }}" class="{{ class }}">{{ title }}</a>
+			    {{ if children }}
+			    <ul>
+			    {{ children }}
+			        <li><a href="{{ url }}">{{ title }}</a></li>
+			    {{ /children }}
+			    </ul>
+			    {{ endif }}
+			</li>
+			
+			{{ /navigation:links }}
+		
+		</ul>
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navigation:links</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

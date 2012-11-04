@@ -1,0 +1,36 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ streams:form stream="${1:Required. Stream slug for the stream we are editing or creating data for}" mode="${2:Either new or edit, depending on if you are creating or editing data}" edit_id="${3:Required if editing an entry. ID of the entry to edit}" where="${4:Allows you to specify a where parameter using the following structure: field_slug==value}" required="${5:String that populates the required variable if the field is required}" return="${6:Where to redirect to to when the form action is done. Use -id- to designate the insert id for when using the new mode. This will set a flash success/error message and redirect, so make sure the page you redirect to does not have a redirect itself, otherwise the flash message wil be lost between the two redirects}" error_start="${7:String that prepends error messages}" error_end="${8:String that appends error messages}" include="${9:Fields to include in the form, separated by pipe characters (|). If you specify fields here, all other fields (excluding default columns) will be excluded}" exclude="${10:Fields to exclude from the form, separated by pipe characters (|)}" use_recaptcha="${11:Activates reCAPTCHA}" creator_only="${12:When using the form in edit mode, setting this to yes will only show the form and allow editing of an entry if the creator_id matches the logged in user's id}" }}
+ 
+		    {{ form_open }}
+		 
+			    <table>
+			 
+				    {{ fields }}
+				 
+					    <tr class="{{ odd_even }}">
+					    <td width="250">{{ input_title }}{{ required }} <small>{{ instructions }}</small></td>
+					    <td>{{ error }}{{ input }}</td>
+					    </tr>
+				 
+				    {{ /fields }}
+			 
+			    </table>
+			 
+			    {{ form_submit }}
+		 
+		    {{ form_close }}
+		 
+		{{ /streams:form }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>streams:form</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

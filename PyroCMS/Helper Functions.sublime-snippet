@@ -1,0 +1,52 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		
+		{{ helper:character_limiter }}
+		{{ helper:count }}
+		{{ helper:count_chars }}
+		{{ helper:empty }}
+		{{ helper:explode }}
+		{{ helper:format_date }}
+		{{ helper:html_entity_decode }}
+		{{ helper:htmlentities }}
+		{{ helper:htmlspecialchars }}
+		{{ helper:htmlspecialchars_decode }}
+		{{ helper:implode }}
+		{{ helper:is_array }}
+		{{ helper:is_int }}
+		{{ helper:is_integer }}
+		{{ helper:is_string }}
+		{{ helper:isset }}
+		{{ helper:ltrim }}
+		{{ helper:md5 }}
+		{{ helper:money_format }}
+		{{ helper:number_format }}
+		{{ helper:preg_match }}
+		{{ helper:preg_replace }}
+		{{ helper:rtrim }}
+		{{ helper:sprintf }}
+		{{ helper:str_replace }}
+		{{ helper:str_word_count }}
+		{{ helper:strip_tags }}
+		{{ helper:strpos }}
+		{{ helper:strtolower }}
+		{{ helper:strtoupper }}
+		{{ helper:substr }}
+		{{ helper:trim }}
+		{{ helper:ucfirst }}
+		{{ helper:ucwords }}
+		{{ helper:word_censor }}
+		{{ helper:word_limiter }}
+		{{ helper:wordwrap }}
+	
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helper:functions</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+{{ helper:</snippet>

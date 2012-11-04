@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ pages:page_tree start-id="${1:ID of the page you want to display children for}" disable-levels="${2:A list of page slugs to skip separated by the pipe character. Example: secret|super-secret|nuclear-codes}" order-by="${3:Database column to order pages by}" order-dir="${4:Direction to sort the pages}" }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pages:tree</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

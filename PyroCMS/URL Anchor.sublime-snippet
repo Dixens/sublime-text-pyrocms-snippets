@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ url:anchor segments="${1:Segments passed to the anchor function}" title="${2:Text displayed between <a href></a> tags. If omitted, URL is duplicated}" class="${3:Optional CSS class}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>url:anchor</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

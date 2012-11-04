@@ -1,0 +1,17 @@
+<snippet>
+	
+	<content><![CDATA[
+		
+		{{ pages:display id="${1:ID of the page you want to display}" }}
+    		
+		{{ /pages:display }}
+		
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pages:display id</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>

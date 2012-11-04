@@ -1,0 +1,15 @@
+<snippet>
+	
+	<content><![CDATA[
+
+		{{ files:image id="${1:Required. The file id of the image}" width="${2:For images specify the desired width in pixels for it to be resized to}" height="${3:For images specify the desired height in pixels for it to be resized to}" size="${4:For images specify the desired width/height. Shorthand for the width and height attributes above. size="200/150"}" mode="${5:The resize mode to use when resizing an image. May be either "fit" or "fill"}" }}
+
+	]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>files:image</tabTrigger>
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+
+</snippet>
