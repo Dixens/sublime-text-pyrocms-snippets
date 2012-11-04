@@ -1,5 +1,3 @@
-sublime-text-pyrocms-snippets
-=============================
 
 <div id="readme" class="blob instapaper_body">
 
