@@ -119,8 +119,6 @@ Lang
 <li>Lang Direction</li>
 <li>Lang Folder</li>
 <li>Lang Name</li>
-<li>Helper Gravatar</li>
-<li>Helper Lang</li>
 </ul>
 
 <h4>
